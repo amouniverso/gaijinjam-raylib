@@ -1,0 +1,47 @@
+﻿  HorizontalMovingBox.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\HorizontalMovingBox.cpp(7,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(22,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,39): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,65): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,91): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(107,57): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(108,70): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(109,70): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+  MouseFollowingBox.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\MouseFollowingBox.cpp(18,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+HorizontalMovingBox.obj : error LNK2001: unresolved external symbol _GetScreenWidth
+HorizontalMovingBox.obj : error LNK2001: unresolved external symbol _GetScreenHeight
+main.obj : error LNK2001: unresolved external symbol _GetCollisionRec
+main.obj : error LNK2001: unresolved external symbol _BeginMode2D
+main.obj : error LNK2001: unresolved external symbol _DrawRectangleRec
+main.obj : error LNK2001: unresolved external symbol _IsKeyDown
+main.obj : error LNK2001: unresolved external symbol _GetMouseWheelMove
+main.obj : error LNK2001: unresolved external symbol _GetMousePosition
+main.obj : error LNK2001: unresolved external symbol _SetTargetFPS
+main.obj : error LNK2001: unresolved external symbol _DrawTexture
+main.obj : error LNK2001: unresolved external symbol _MeasureText
+main.obj : error LNK2001: unresolved external symbol _ClearBackground
+main.obj : error LNK2001: unresolved external symbol _UnloadTexture
+main.obj : error LNK2001: unresolved external symbol _DrawFPS
+main.obj : error LNK2001: unresolved external symbol _IsMouseButtonDown
+main.obj : error LNK2001: unresolved external symbol _LoadTexture
+main.obj : error LNK2001: unresolved external symbol _IsKeyPressed
+main.obj : error LNK2001: unresolved external symbol _WindowShouldClose
+main.obj : error LNK2001: unresolved external symbol _DrawRectangle
+main.obj : error LNK2001: unresolved external symbol _TextFormat
+main.obj : error LNK2001: unresolved external symbol _EndMode2D
+main.obj : error LNK2001: unresolved external symbol _BeginDrawing
+main.obj : error LNK2001: unresolved external symbol _GetRandomValue
+main.obj : error LNK2001: unresolved external symbol _InitWindow
+main.obj : error LNK2001: unresolved external symbol _DrawText
+main.obj : error LNK2001: unresolved external symbol _CloseWindow
+main.obj : error LNK2001: unresolved external symbol _EndDrawing
+main.obj : error LNK2001: unresolved external symbol _CheckCollisionRecs
+MouseFollowingBox.obj : error LNK2001: unresolved external symbol _GetMouseY
+MouseFollowingBox.obj : error LNK2001: unresolved external symbol _GetMouseX
+C:\Users\amoun\Source\Repos\RaylibGaijinJam_1\Release\RaylibGaijinJam.exe : fatal error LNK1120: 30 unresolved externals

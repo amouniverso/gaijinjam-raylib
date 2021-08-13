@@ -1,0 +1,23 @@
+﻿  HorizontalMovingBox.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\HorizontalMovingBox.cpp(7,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(22,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(28,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,39): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,65): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(57,91): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(107,57): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(108,70): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\main.cpp(109,70): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+  MouseFollowingBox.cpp
+C:\Users\amoun\source\repos\RaylibGaijinJam_1\RaylibGaijinJam\MouseFollowingBox.cpp(18,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  raylib.lib(core.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+raylib.lib(core.obj) : error LNK2001: unresolved external symbol timeEndPeriod
+raylib.lib(core.obj) : error LNK2001: unresolved external symbol timeBeginPeriod
+C:\Users\amoun\Source\Repos\RaylibGaijinJam_1\x64\Debug\RaylibGaijinJam.exe : fatal error LNK1120: 2 unresolved externals
